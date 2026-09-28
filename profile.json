@@ -1,0 +1,111 @@
+{
+  "_comment": "Source of truth for dark.svg, light.svg and README.md. Edit, then run: python3 tools/build.py. Empty strings/lists are omitted.",
+
+  "name": "Mateen Akram",
+  "username": "MateenAkram1",
+  "host": "profile",
+  "headline": "AI Engineer · Full-Stack Software Developer",
+  "roles": ["AI Engineer", "Full-Stack Developer", "AI & Automation Engineer"],
+  "role": "Associate Software Engineer",
+  "company": "RipeSeed",
+  "location": "Lahore, Pakistan",
+  "experience": "",
+  "education": "BS Computer Science · FAST-NUCES",
+  "focus": ["LLM Apps", "Voice AI", "AI Automation", "REST APIs"],
+  "stack": ["Python", "FastAPI", "Next.js", "React", "Node.js", "OpenAI", "LiveKit", "Twilio", "Docker", "n8n", "PostgreSQL"],
+  "projects": [
+    {"name": "Talkbase", "description": "AI voice-calling platform · LiveKit + Twilio", "url": "",
+     "tech": ["Next.js", "Tailwind CSS", "FastAPI", "Twilio", "LiveKit"],
+     "summary": "AI-powered voice communication platform for creating AI callers that handle local and international calls with minimal latency using LLMs, with Google Workspace integration for call data, reporting and email notifications."},
+    {"name": "MobiCrash", "description": "AI detection of phone use while driving", "url": "",
+     "tech": ["Python", "Next.js", "FastAPI", "Twilio"],
+     "summary": "AI-based traffic monitoring system that uses Safe City camera feeds to detect mobile phone usage while driving and automatically generate challans and authority alerts."},
+    {"name": "Credible Ai", "description": "AI-agent marketing content platform", "url": "",
+     "tech": ["Next.js", "AI Agents"],
+     "summary": "AI-powered marketing content generation platform that uses an AI agent to produce social media posts based on real market signals (built at RipeSeed)."},
+    {"name": "StayVerse", "readme_only": true, "url": "",
+     "tech": ["React.js", "Node.js", "Express.js", "MongoDB"],
+     "summary": "Airbnb-style hotel booking and management platform with AI-based recommendations, analytics dashboards, authentication, calendar scheduling and Google Workspace integrations."},
+    {"name": "Transcribe", "readme_only": true, "url": "",
+     "tech": ["React.js", "Rust", "Python"],
+     "summary": "AI-powered desktop application for meeting transcription, minutes generation and speech processing."},
+    {"name": "CuraSense", "readme_only": true, "url": "",
+     "tech": ["Python", "Gradio", "Grok API"],
+     "summary": "AI healthcare assistant with image and voice-based disease prediction, precaution recommendations and text/audio responses."},
+    {"name": "ChatBot Generator", "readme_only": true, "url": "",
+     "tech": ["Python", "React.js", "Tailwind CSS"],
+     "summary": "Customizable system that builds domain-specific conversational assistants from user-provided data."},
+    {"name": "Next Word Prediction", "readme_only": true, "url": "",
+     "tech": ["Python", "LSTM RNN"],
+     "summary": "Deep learning next-word prediction model using LSTM networks for sequence generation and NLP."},
+    {"name": "CasaConnect", "readme_only": true, "url": "",
+     "tech": ["Kotlin", "Firebase"],
+     "summary": "Real estate Android app with property listings, bookings, authentication, search and Firebase realtime database."},
+    {"name": "Professional Resume Website", "readme_only": true, "url": "https://mateen-portfolio.vercel.app",
+     "tech": ["React.js", "Tailwind CSS"],
+     "summary": "Responsive portfolio and resume website built with modern UI/UX principles."}
+  ],
+  "tag": "AI ENGINEERING / FULL STACK",
+  "tagline": "Building AI agents, voice AI & automation",
+  "command": "build --ship",
+
+  "links": {
+    "github": "MateenAkram1",
+    "linkedin": "mateen-akram-b663b0298",
+    "portfolio": "https://mateen-portfolio.vercel.app",
+    "medium": "",
+    "x": "",
+    "youtube": "",
+    "email": "mateen.akram124@gmail.com"
+  },
+  "banner_links": ["github", "portfolio", "linkedin"],
+
+  "readme": {
+    "intro": "AI Engineer and Full-Stack Software Developer building AI-powered web applications, voice AI platforms, automation pipelines and real-time communication systems.",
+    "about": [
+      "Associate Software Engineer at **RipeSeed**, working on Credible Ai, an AI-agent platform for marketing content.",
+      "Build scalable web apps and REST APIs with **Python, FastAPI, Next.js, React and Node.js**.",
+      "Work with **LLM integrations**, AI agents, chatbots, voice AI and deep learning models.",
+      "Automate business workflows with **n8n, Docker and the OpenAI API**.",
+      "Care about backend architecture, API design, database management and Agile delivery."
+    ],
+    "experience": [
+      {"role": "Associate Software Engineer", "company": "RipeSeed", "dates": "Sept 2026 – Present", "location": "Lahore, Pakistan",
+       "highlights": ["Developed **Credible Ai**, an AI-powered marketing content generation platform using Next.js and an AI agent to create high-quality social media posts based on real market signals."]},
+      {"role": "Software Engineer", "company": "BitPix Soft", "dates": "July 2025 – Sept 2026", "location": "Lahore, Pakistan",
+       "highlights": [
+         "Developed **Talkbase**, an AI-powered voice calling platform using Next.js, FastAPI, Twilio and LiveKit for low-latency local and international AI communication.",
+         "Designed, developed and integrated scalable RESTful APIs following Agile methodologies.",
+         "Worked on backend architecture, real-time communication systems, API optimization and AI workflow integration."
+       ]},
+      {"role": "AI & Automation Engineer", "company": "Robx.AI", "dates": "April 2025 – June 2025", "location": "Remote",
+       "highlights": [
+         "Built an AI-powered customer support chatbot using OpenAI APIs, n8n, Docker, SMTP automation and workflow orchestration tools.",
+         "Implemented Facebook Marketplace automation pipelines and intelligent process automation workflows.",
+         "Optimized automation processes and integrated AI conversational systems for customer engagement."
+       ]}
+    ],
+    "stack_groups": {
+      "Languages": ["Python", "C", "C++", "C#", "JavaScript", "Kotlin", "PHP", "x8086 Assembly"],
+      "Frontend": ["HTML5", "CSS3", "React.js", "Next.js", "Tailwind CSS"],
+      "Backend": ["FastAPI", "Flask", "Express.js", "Node.js", "REST APIs"],
+      "AI / ML": ["TensorFlow", "Keras", "LSTM RNN", "OpenAI APIs", "LLM Integration", "NLP"],
+      "Databases": ["MongoDB", "MySQL", "PostgreSQL", "SQL Server", "Firebase"],
+      "DevOps & Tools": ["Git", "Docker", "Selenium", "Jira", "Figma", "Twilio", "LiveKit", "n8n", "Google Workspace"],
+      "Mobile & Games": ["Android Studio", "React Native", "Unity", "Photon PUN 2"]
+    },
+    "more_projects": [
+      "Social Media Platform (C++ OOP)",
+      "E-commerce Application (Kotlin)",
+      "Leave Management System (C++)",
+      "Sudoku Solver using Backtracking (C++)",
+      "Ticketing System (Python OOP/DSA)",
+      "Flappy Bird Clone (x8086 Assembly)",
+      "Josephus Problem Visualizer (C++ with SFML)"
+    ],
+    "education": ["**FAST – National University of Computer and Emerging Sciences**, Lahore — BS Computer Science"],
+    "certifications": [],
+    "writing": [],
+    "github_stats": true
+  }
+}
